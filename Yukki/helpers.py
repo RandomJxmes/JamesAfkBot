@@ -76,42 +76,24 @@ asyncio.create_task(auto_clean())
 
 
 RANDOM = [
-    "https://telegra.ph//file/0879fbdb307005c1fa8ab.jpg",
-    "https://telegra.ph//file/19e3a9d5c0985702497fb.jpg",
-    "https://telegra.ph//file/b5fa277081dddbddd0b12.jpg",
-    "https://telegra.ph//file/96e96245fe1afb82d0398.jpg",
-    "https://telegra.ph//file/fb140807129a3ccb60164.jpg",
-    "https://telegra.ph//file/09c9ea0e2660efae6f62a.jpg",
-    "https://telegra.ph//file/3b59b15e1914b4fa18b71.jpg",
-    "https://telegra.ph//file/efb26cc17eef6fe82d910.jpg",
-    "https://telegra.ph//file/ab4925a050e07b00f63c5.jpg",
-    "https://telegra.ph//file/d169a77fd52b46e421414.jpg",
-    "https://telegra.ph//file/dab9fc41f214f9cded1bb.jpg",
-    "https://telegra.ph//file/e05d6e4faff7497c5ae56.jpg",
-    "https://telegra.ph//file/1e54f0fff666dd53da66f.jpg",
-    "https://telegra.ph//file/18e98c60b253d4d926f5f.jpg",
-    "https://telegra.ph//file/b1f7d9702f8ea590b2e0c.jpg",
-    "https://telegra.ph//file/7bb62c8a0f399f6ee1f33.jpg",
-    "https://telegra.ph//file/dd00c759805082830b6b6.jpg",
-    "https://telegra.ph//file/3b996e3241cf93d102adc.jpg",
-    "https://telegra.ph//file/610cc4522c7d0f69e1eb8.jpg",
-    "https://telegra.ph//file/bc97b1e9bbe6d6db36984.jpg",
-    "https://telegra.ph//file/2ddf3521636d4b17df6dd.jpg",
-    "https://telegra.ph//file/72e4414f618111ea90a57.jpg",
-    "https://telegra.ph//file/a958417dcd966d341bfe2.jpg",
-    "https://telegra.ph//file/0afd9c2f70c6328a1e53a.jpg",
-    "https://telegra.ph//file/82ff887aad046c3bcc9a3.jpg",
-    "https://telegra.ph//file/8ba64d5506c23acb67ff4.jpg",
-    "https://telegra.ph//file/8ba64d5506c23acb67ff4.jpg",
-    "https://telegra.ph//file/a7cba6e78bb63e1b4aefb.jpg",
-    "https://telegra.ph//file/f8ba75bdbb9931cbc8229.jpg",
-    "https://telegra.ph//file/07bb5f805178ec24871d3.jpg"
+    "https://te.legra.ph/file/95156831eb10e700ed255.jpg",
+    "https://te.legra.ph/file/fb8d6318051d8ab540876.jpg",
+    "https://te.legra.ph/file/5adad29bb8aabc7a4d581.jpg",
+    "https://te.legra.ph/file/d2c3125f0329afb9703f1.jpg",
+    "https://te.legra.ph/file/b08622f7d74ff089c90ad.jpg",
+    "https://te.legra.ph/file/80fd0e0e64854867ba389.jpg",
+    "https://te.legra.ph/file/ab6e053adfdd62311a9b1.jpg",
+    "https://te.legra.ph/file/47ea646ae7fcfc1e63997.jpg",
+    "https://te.legra.ph/file/4b430f271aefeae9dfa58.jpg",
+    "https://te.legra.ph/file/6cf4f5fb8402f937b1700.jpg",
+    "https://te.legra.ph/file/5ae9c12d94893c5fc7952.jpg",
+    "https://te.legra.ph/file/5ae9c12d94893c5fc7952.jpg",
 ]
 
 
-HELP_TEXT = f"""Welcome to {botname}'s Help Section.
+HELP_TEXT = f"""Welcome to {botname} Help Section.
 
-- When someone mentions you in a chat, the user will be notified you are AFK. You can even provide a reason for going AFK, which will be provided to the user as well.
+▷ **When someone mentions you in a chat, the user will be notified you are AFK. You can even provide a reason for going AFK, which will be provided to the user as well.**
 
 
 /afk - This will set you offline.
@@ -123,7 +105,7 @@ HELP_TEXT = f"""Welcome to {botname}'s Help Section.
 /afk [Replied to a Sticker/Photo] [Reason] - This will set you afk with an image and reason both.
 
 
-/settings - To change or edit basic settings of AFK Bot.
+▷ **Bot Owner: @The_Sneha_Singh** 🫶🏻
 """
 
 def settings_markup(status: Union[bool, str] = None):
